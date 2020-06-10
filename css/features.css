@@ -1,0 +1,55 @@
+:root {
+    --softBlue: hsl(231, 72%, 62%);
+    --softRed: hsl(0, 94%, 66%);
+    --grayishBlue: hsl(229, 8%, 60%);
+    --veryDarkBlue: hsl(229, 31%, 21%);
+}
+
+.Features {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 0 18em;
+    margin: 2em 0;
+}
+
+.Features__text {
+    /* border: 1px solid blue; */
+    padding: 0 2em;
+}
+
+.Features__text h3 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.Features__text article p {
+    color: var(--grayishBlue);
+}
+
+.Features__navigations {
+    /* border: 1px solid green; */
+    /* padding: 10px 0; */
+    height: 45px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.Features__navigations div {
+    /* border: 1px solid red; */
+    flex: 1;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Features__navigations div a {
+    text-decoration: none;
+    color: var(--veryDarkBlue);
+    font-weight: 500;
+    /* border: 1px solid blue; */
+    display: block;
+    height: 100%;
+}
+
+.Features__navigations div a:hover {
+    border-bottom: 4px solid var(--softRed);
+}

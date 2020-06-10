@@ -1,0 +1,164 @@
+:root {
+    --softBlue: hsl(231, 72%, 62%);
+    --softRed: hsl(0, 94%, 66%);
+    --grayishBlue: hsl(229, 8%, 60%);
+    --veryDarkBlue: hsl(229, 31%, 21%);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.Header__container {
+    /* border: 1px solid red; */
+    height: 80vh;
+}
+
+
+/* header top */
+
+.Header__top {
+    /* border: 1px solid blue; */
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header__top-lef {
+    /* border: 1px solid green; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__top-lef img {
+    width: 120px;
+}
+
+.Header__top-right {
+    /* border: 1px solid red; */
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.Header__top-right nav ul {
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header__top-right nav ul li {
+    /* border: 1px solid green; */
+    list-style: none;
+    font-size: 12px;
+}
+
+.Header__top-right nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn__login {
+    /* border: 1px solid blue; */
+    padding: .8em 2em;
+    background: #fff;
+    border: 3px solid var(--softRed);
+    border-radius: 5px;
+    font-size: 12px;
+    color: var(--softRed);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* header body */
+
+.Header__body {
+    /* border: 1px solid peru; */
+    height: 85%;
+    display: flex;
+}
+
+.Header__body-slogan {
+    /* border: 1px solid green; */
+    width: 40%;
+    padding: 2em 4em 0em 8em;
+}
+
+.Header__slogan-banner {
+    /* border: 1px solid red; */
+    width: 450px;
+}
+
+.Header__body-slogan h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.Header__body-slogan article p {
+    font-size: 16px;
+    color: var(--grayishBlue)
+}
+
+.Header__slogan-btn {
+    /* border: 1px solid blue; */
+    height: 4em;
+}
+
+.Header__slogan-btn button {
+    border: 2px solid var(--softBlue);
+    padding: .8em 1.4em;
+    border-radius: 5px;
+    background: #fff;
+    color: var(--softBlue);
+}
+
+.slogan__btn-item {
+    margin-left: 1em;
+    border: 2px solid var(--veryDarkBlue) !important;
+    color: var(--veryDarkBlue) !important;
+}
+
+
+/* body img */
+
+.Header__body-img {
+    /* border: 1px solid red; */
+    width: 60%;
+    position: relative;
+}
+
+.Header__img-container {
+    /* border: 1px solid blue; */
+    width: 90%;
+}
+
+.Header__img-container img {
+    /* border: 1px solid blue; */
+    width: 100%;
+    z-index: 1;
+}
+
+.Mancha__svg {
+    height: 270px;
+    width: 400px;
+    background: var(--softBlue);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    z-index: -1;
+}
